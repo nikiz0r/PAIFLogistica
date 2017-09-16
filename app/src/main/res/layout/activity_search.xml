@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/basePagePad"
+    android:paddingBottom="@dimen/basePagePad"
+    android:paddingLeft="@dimen/basePagePad"
+    android:paddingRight="@dimen/basePagePad"
+    tools:context="com.fiap.rumenigue.paiflogistica.SearchActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/base_text"
+            android:text="@string/type_the_cep"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            style="@style/base_text"
+            android:id="@+id/etCep"
+            android:layout_marginLeft="@dimen/base_fieldmargin"
+            android:textAlignment="center"
+            android:hint="@string/placeholder_cep"/>
+    </LinearLayout>
+
+    <Button
+        style="@style/buttonStyle"
+        android:id="@+id/btnSearch"
+        android:onClick="buscar"
+        android:text="@string/search"/>
+
+    <TextView
+        style="@style/base_text"
+        android:id="@+id/tvTipo"
+        android:text="@string/tipo_logradouro"/>
+
+    <TextView
+        style="@style/base_text"
+        android:id="@+id/tvLogradouro"
+        android:text="@string/logradouro"/>
+
+    <TextView
+        style="@style/base_text"
+        android:id="@+id/tvBairro"
+        android:text="@string/bairro"/>
+
+    <TextView
+        style="@style/base_text"
+        android:id="@+id/tvCidade"
+        android:text="@string/cidade"/>
+
+    <TextView
+        style="@style/base_text"
+        android:id="@+id/tvEstado"
+        android:text="@string/estado"/>
+</LinearLayout>

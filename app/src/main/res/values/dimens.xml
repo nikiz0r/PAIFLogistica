@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="basePagePad">16dp</dimen>
+    <dimen name="base_textsize">20sp</dimen>
+    <dimen name="base_fieldmargin">16dp</dimen>
+</resources>

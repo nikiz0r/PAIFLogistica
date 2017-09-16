@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PAIFLogistica</string>
+    <string name="search">Buscar</string>
+    <string name="placeholder_cep">00000-000</string>
+    <string name="type_the_cep">Digite o CEP:</string>
+    <string name="tipo_logradouro">Tipo de logradouro: </string>
+    <string name="logradouro">Logradouro: </string>
+    <string name="bairro">Bairro: </string>
+    <string name="cidade">Cidade: </string>
+    <string name="estado">Estado: </string>
+    <string name="search_fail">Sua busca não teve sucesso!</string>
+</resources>
